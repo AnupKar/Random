@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      Hello Apple new
+      Hello Apple Update
     </div>
   );
 }
