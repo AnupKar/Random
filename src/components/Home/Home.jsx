@@ -23,7 +23,7 @@ export const Home=()=>{
                     Content
                 </div>
             </div>
-            <h1>Welcome to home</h1><button onClick={getLoggedOut}>Log Out</button>
+            <h1>Welcome to</h1><button onClick={getLoggedOut}>Log Out</button>
 
             <TravelDetail/>
         </>
