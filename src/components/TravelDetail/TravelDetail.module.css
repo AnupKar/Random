@@ -1,0 +1,25 @@
+.booking_main{
+    
+}
+.list_container{
+    
+}
+.TravellerDetail{
+    margin: 20px;
+    max-height: 420px;
+    overflow-y: auto;
+}
+.detailForm{
+    width: 100%;
+}
+.selection{
+    width:65%!important;
+}
+.addDetails{
+    margin-left: 45%;
+    margin-top:5%;
+    border: 2px solid #007EFF;
+    border-radius: 5px;
+    color: white;
+    background-color:  #007EFF;;
+}
