@@ -1,31 +1,41 @@
 import React from "react";
-import styles from './Home.module.css'
+import styles from "./Home.module.css";
 import { TravelDetail } from "../TravelDetail/TravelDetail";
-//import { Login } from "../Login/Login";
-//import { useState } from "react";
+import { SideBar } from "../Sidebar/Sidebar";
 import { useNavigate } from "react-router-dom";
-export const Home=()=>{
-    const navigate=useNavigate()
-    const getLoggedOut=()=>{
-        navigate('/login');
-    }
-    //const [nav,setNav]=useState(false)
-    return (
-        <>
-            {/*main div*/}
-            <div className={styles.mainContainer}>
-                {/*navbar*/}
-                <div>
-                    Navbar
-                </div>
-                {/*content*/}
-                <div>
-                    Content
-                </div>
-            </div>
-            <h1>Welcome to home</h1><button onClick={getLoggedOut}>Log Out</button>
+import { Outlet } from "react-router-dom";
 
-            <TravelDetail/>
-        </>
-    )
-}
+const SomeCompo = () => {
+  console.log("here in some compo .");
+  return <h1>hello Raj</h1>;
+};
+
+export const Home = () => {
+  const navigate = useNavigate();
+
+  const getLoggedOut = () => {
+    navigate("/login");
+  };
+
+  return (
+    <>
+      <div>
+        <div className={styles.navBar}>
+          <h4>TMS</h4>
+          <div>
+            <button>My trip</button>
+            <button onClick={getLoggedOut}>Logout</button>
+          </div>
+        </div>
+        <div className={styles.container}>
+          <div className={styles.sidebar}>
+            <SideBar />
+          </div>
+          <div className={styles.mainContent}>
+            <Outlet />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};

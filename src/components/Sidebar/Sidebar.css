@@ -1,0 +1,8 @@
+.sidebar_container .side-navigation-panel-select-option-selected {
+  background-color: #007eff !important;
+}
+
+.sidebar_container .side-navigation-panel-select-option-selected span {
+  color: #fff;
+  font-weight: bold;
+}

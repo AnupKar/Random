@@ -1,0 +1,42 @@
+:root {
+  --color-primary: #fff;
+}
+
+.navBar {
+  background: var(--color-primary);
+  height: 4rem;
+  margin-bottom: 0.3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navBar h4 {
+  letter-spacing: 0.2rem;
+}
+
+.navBar button {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background: var(--color-primary);
+}
+
+.navBar > div button:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .sidebar {
+  background: var(--color-primary);
+}
+
+.container .mainContent {
+  margin-top: 3rem;
+}
