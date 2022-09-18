@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const SomeCompo = () => {
   console.log("here in some compo .");
-  return <h1>hello Raj</h1>;
+  return <h1>hello</h1>;
 };
 
 function App() {
