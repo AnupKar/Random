@@ -5,7 +5,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 //import Dropdown from 'react-dropdown';
 import Select from "react-select";
-import "react-dropdown/style.css";
+//import "react-dropdown/style.css";
 import { BookingContext } from "../../context";
 import { SideBar } from "../Sidebar/Sidebar";
 
