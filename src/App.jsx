@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect } from "react";
-import { Home, Login, TravelDetail } from "./components";
+import { TravelDetail,Booking } from "./components/Home";
+import { Home, Login } from "./components";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -20,8 +21,8 @@ function App() {
     <>
       <Routes>
         <Route exact={true} path="/" element={<Home />}>
-          <Route path="/traveldetail" element={<TravelDetail />} />
-          <Route path="/booking" element={<SomeCompo />} />
+          <Route path="/traveldetail" element={<TravelDetail/>} />
+          <Route path="/booking" element={<Booking />} />
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>

@@ -30,7 +30,7 @@
 
 .container {
   display: flex;
-  height: 300px;
+  height: 87vh;
 }
 
 .container .sidebar {
@@ -39,4 +39,5 @@
 
 .container .mainContent {
   margin-top: 3rem;
+  width: 80%;
 }

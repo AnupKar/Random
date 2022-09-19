@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Home.module.css";
-import { TravelDetail } from "../TravelDetail/TravelDetail";
 import { SideBar } from "../Sidebar/Sidebar";
 import { useNavigate } from "react-router-dom";
 import { Outlet } from "react-router-dom";

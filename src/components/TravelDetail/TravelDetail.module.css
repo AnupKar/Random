@@ -15,6 +15,10 @@
 .selection{
     width:87%!important;
 }
+.selection input:focus{
+    outline: none;
+    border: 0px !important;
+}
 .addDetails{
     margin-left: 40%;
     margin-top:5%;
@@ -23,3 +27,24 @@
     color: white;
     background-color:  #007EFF;;
 }
+.btn_disabled{
+    margin-left: 40%;
+    margin-top:5%;
+    border: 2px solid #adb5bd;
+    border-radius: 5px;
+    color: white;
+    background-color: #adb5bd;
+    cursor: default;
+}
+.setTravellers{
+    width: 30%;
+}
+.traveller_list{
+    min-height: 470px;
+    max-height: 471px;
+    overflow-y: auto;
+}
+.detailForm > label{
+    margin-left: 1.5rem
+}
+  

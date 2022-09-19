@@ -7,8 +7,8 @@ import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import "./Sidebar.css";
 
 const SidebarPages = [
-  { title: "Booking", itemId: "/traveldetail" },
-  { title: "Another One", itemId: "/booking" },
+  { title: "Add Traveller", itemId: "/traveldetail" },
+  { title: "Booking", itemId: "/booking" },
 ];
 
 export const SideBar = () => {
